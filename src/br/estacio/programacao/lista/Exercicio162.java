@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.estacio.programacao.aula6;
+package br.estacio.programacao.lista;
 
 import java.util.Scanner;
 
