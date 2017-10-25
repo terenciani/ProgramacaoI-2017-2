@@ -28,8 +28,9 @@ public class TestaJOptionPane {
         quantidadeDeNumeros = Integer.parseInt(retorno);
 
         while (count <= quantidadeDeNumeros) {
-            retorno = JOptionPane.showInputDialog(null, "Digite o numero", "Calculadora de Média", JOptionPane.INFORMATION_MESSAGE);
+            retorno = JOptionPane.showInputDialog(null, "Digite o "+count+"º numero", "Calculadora de Média", JOptionPane.INFORMATION_MESSAGE);
             soma += Double.parseDouble(retorno);
+            count++;
         }
 
         if (soma != 0) {
